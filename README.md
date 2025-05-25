@@ -8,7 +8,7 @@ Este es un proyecto web básico sobre ciberseguridad en dispositivos móviles. T
 - CSS3
 - JavaScript
 
-## Enlace a la web publicada
+## Enlace a la web 
 
 https://diegosanchezvarga.neocities.org
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Protege tu Smartphone</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Protege tu Smartphone</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="riesgos.html">Riesgos</a></li>
+        <li><a href="consejos.html">Consejos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Formulario de Contacto</h2>
+      <form id="formulario-contacto">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="respuesta" style="color: green; margin-top: 1em;"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Protege tu Smartphone</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
